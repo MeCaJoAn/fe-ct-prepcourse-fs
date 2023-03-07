@@ -101,3 +101,6 @@ Ahora debes crear un archivo llamado "**_primerArchivo.txt_**". Revisa el comand
 En este ejercicio debes subir tus cambios al repositorio de Github. Para lograr esto te recomendamos que sigas el siguiente video:
 
 [![Alt text](../Assets//M1Video.png)](https://rise.articulate.com/share/O0SjmUFcjx_3AXSA2lizESbHitgJIOpq#/lessons/I9cctwN3h79mfdlDPlrgxFt9e4jePcfJ)
+
+
+Homework finish github
