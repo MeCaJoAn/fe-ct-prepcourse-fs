@@ -149,3 +149,66 @@ var g = Math.random() // genera un numero decimal aleatorio entre 0 y 1
 
 console.log(f + " " + " " + g)
 
+"Bucles For y while"
+var suma=0
+for(var i =0; i < 5 ; i++){//se sabe la cantidad exacta de pasos
+    suma=suma+i
+}
+console.log("la suma es : " + suma)
+var x=0
+var suma1=0
+while (x<5) {//no se sabe cuantos pasos se necesita
+    suma1 = suma1 + x
+    x=x+1
+}
+console.log(suma1)
+
+"CASO SWITCH" 
+
+var Animal = 'Jirafa';
+switch (Animal) {
+  case 'Vaca':
+  case 'Jirafa':
+  case 'Perro':
+  case 'Cerdo':
+    console.log('Este animal subirá al Arca de Noé.');
+    break;
+  case 'Dinosaurio':
+  default:
+    console.log('Este animal no lo hará.');
+}
+
+"CASO DO WHILE "
+
+let result = '';
+let i = 0;
+
+do {
+  i = i + 1;
+  result = result + i;
+} while (i < 5);
+
+console.log(result);
+
+"CASO CONTINUE"
+i = 0;
+n = 0;
+while (i < 5) {
+   i++;
+   if (i == 3)
+      continue;
+   n += i;
+}
+
+
+"CASO BREAK"
+function comprobarBreak(x) {
+    var i = 0;
+    while (i < 6) {
+       if (i == 3)
+          break;
+       i++;
+    }
+    return i * x;
+ }
+ console.log(comprobarBreak(6))
