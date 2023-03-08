@@ -212,3 +212,9 @@ function comprobarBreak(x) {
     return i * x;
  }
  console.log(comprobarBreak(6))
+"NUMERO PRIMO"
+ if(num ===0 || num === 1 || num === 4 || num < 0 ) return false
+   for(var i=2;i<num/2 ;i++){
+      if(num % i ===0 ) return false
+   }  
+   return true
