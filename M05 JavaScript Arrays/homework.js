@@ -231,6 +231,7 @@ function breakStatement(num) {
             num = num + 2
             if(cont === num){
                 return "Se interrumpió la ejecución"
+                break
             }else{
                 arreglo.push(num)
             }
@@ -254,8 +255,10 @@ function continueStatement(num) {
            if(cont === 5){
                arreglo.pop(cont)
                arreglo.push(num)
+               i++
+               continue
            }
-   }arreglo.pop()
+   }
    return arreglo
 
 }
